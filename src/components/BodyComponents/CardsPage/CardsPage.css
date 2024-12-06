@@ -1,0 +1,83 @@
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.cards-section h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: 4px;
+}
+
+.cards-section p {
+  text-align: center;
+  line-height: 22.4px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 68px;
+  letter-spacing: 1px;
+}
+
+.cards-section div {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 808px;
+  background: url("/src/assets/Frame 27.png") no-repeat;
+  background-size: cover;
+  border-radius: 56px;
+  margin-top: 8px;
+  padding: 8px;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+  }
+  .bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 700px;
+    border-radius: 56px;
+    background: url("/src/assets/Frame 27.png") no-repeat;
+    background-size: cover;
+  }
+  .cards-section div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .cards-section h2 {
+    font-size: 18px;
+    line-height: 21.78px;
+    margin-bottom: 12px;
+  }
+  .cards-section p {
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 1px;
+    margin-bottom: 46px;
+  }
+}

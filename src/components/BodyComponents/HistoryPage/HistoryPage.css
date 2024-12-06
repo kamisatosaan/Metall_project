@@ -1,0 +1,121 @@
+.history-section {
+  padding-left: 80px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+.history-section h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: start;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+
+.history-section h6 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: start;
+  color: #000;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.history-section p {
+  text-align: start;
+  line-height: 25.2px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 68px;
+  letter-spacing: 1px;
+}
+
+.history-row-01,
+.history-row-02 {
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.history-column-01 {
+  margin-right: 57px;
+}
+
+.history-column-02 {
+  margin-left: 57px;
+}
+
+.history-section img {
+  border-radius: 32px;
+  width: 832px;
+  height: 594px;
+}
+
+@media (max-width: 768px) {
+  .history-section {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 375px;
+  }
+
+  .history-row-01 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 52px;
+    margin-top: 60px;
+  }
+
+  .history-row-02 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 52px;
+    margin-top: 60px;
+  }
+
+  .history-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    text-align: start;
+    color: #000;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+
+  .history-section h6 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.78px;
+    text-align: start;
+    color: #000;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+
+  .history-section p {
+    text-align: start;
+    line-height: 19.6px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+  }
+
+  .history-column-01,
+  .history-column-02 {
+    margin: 0;
+  }
+
+  .history-section img {
+    border-radius: 24px;
+    width: 359px;
+    height: 222px;
+  }
+}

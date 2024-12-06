@@ -1,0 +1,92 @@
+.discover-button {
+  width: 196px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.discover-button:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+  border-width: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.discover-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #acc6cf, #6156c6);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.discover-button:hover::before {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .discover-button {
+    width: 190px;
+    height: 48px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.36px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: relative;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+      transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  .discover-button:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.08);
+    border-width: 3px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  }
+  .discover-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    background: linear-gradient(90deg, #acc6cf, #6156c6);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+  }
+  .discover-button:hover::before {
+    opacity: 1;
+  }
+}

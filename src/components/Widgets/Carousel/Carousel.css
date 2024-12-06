@@ -1,0 +1,92 @@
+.carousel-collection-section {
+  width: 100%;
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-collection-image {
+  width: 634px;
+  height: auto;
+}
+
+.carousel-collection-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.prev-collection-button,
+.next-collection-button {
+  background-color: white;
+  border: none;
+  padding: 20px;
+  font-size: 5px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.carousel-collection-indicators {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+
+.carousel-collection-buttons {
+  display: flex;
+  gap: 12px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .carousel-collection-section {
+    width: 359px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 8px;
+  }
+  .carousel-collection-image {
+    width: 359px;
+    height: 280px;
+  }
+  .carousel-collection-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .prev-collection-button,
+  .next-collection-button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 5px;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  .carousel-collection-indicators {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 2px;
+    margin-left: 4px;
+  }
+  .carousel-collection-buttons {
+    display: flex;
+    gap: 12px;
+    margin-right: 10px;
+  }
+}

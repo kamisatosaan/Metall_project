@@ -1,0 +1,60 @@
+.introduce-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 848px;
+  width: 100%;
+  background: url("/src/assets/Frame 25.png") no-repeat center center;
+  color: white;
+  position: relative;
+  border-radius: 56px;
+  margin-top: 8px;
+  margin-bottom: 100px;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.introduce-section h1 {
+  margin-top: 16px;
+  margin-bottom: 26px;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 69.6px;
+  letter-spacing: 4px;
+}
+
+.introduce-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  letter-spacing: 4px;
+}
+
+@media (max-width: 768px) {
+  .introduce-section {
+    width: 375px;
+    height: 550px;
+    border-radius: 24px;
+    background: url("/src/assets/bg.png") no-repeat center center;
+    margin-bottom: 90px;
+  }
+  .introduce-section h1 {
+    font-size: 32px;
+    line-height: 38.4px;
+    margin-bottom: 32px;
+  }
+  .introduce-section h2 {
+    font-size: 18px;
+    line-height: 24.89px;
+    letter-spacing: 2px;
+  }
+}
